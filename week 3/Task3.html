@@ -1,0 +1,157 @@
+<html>
+  <head>
+    <style>
+      body{
+        display: inline-flex;
+        background: url(fon.png);
+      }
+      nav{
+          display: flex;
+          height:4%;
+      }
+      nav a{
+          background-color: #D3D3D3;
+          flex-grow: 1;
+          text-align: center;
+          text-decoration: none;
+          color:black;
+          font-size:20px;
+      }
+      .active a:hover{
+      transition: 0.2s all;
+      background-color: #ff0000;
+      color: white;
+      } 
+      footer{ 
+      text-align: center; 
+      padding: 15 0 15 0; 
+      margin-top: 20px; 
+      background-color: black; 
+      color: white; 
+      position: fixed; 
+      width: 49.5%;
+      bottom: 0; 
+      } 
+      .price{ 
+      font-weight: bold; 
+      } 
+      .title{ 
+      font-family: Arial; 
+      text-decoration: none; 
+      color: white; 
+      background-color: #00BFFF; 
+      padding-left: 20px; 
+      padding-right: 20px; 
+      } 
+      .search{ 
+      position: absolute; 
+      display: inline-block; 
+      margin-top: 40px; 
+      margin-left: 150px; 
+      } 
+      .card{ 
+      text-align: center; 
+      display: inline-block; 
+      border: 1px solid red; 
+      border-radius: 10; 
+      width: 150px; 
+      margin: 5px 25px 10px 25px; 
+      } 
+      .cards{ 
+      text-align: center; 
+      padding-bottom: 20px;; 
+      } 
+      .container{ 
+      opacity: 0.9; 
+      width: 50%; 
+      background-color: white; 
+      margin-top: -10px; 
+      margin-left: 350px; 
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class='active'>
+          <a href="#">Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
+        </nav>
+        <div class="logo_part">
+           <img src="http://via.placeholder.com/200x100"/>
+           <div class="search">
+             <input type="text"/>
+             <button>Search</button>
+           </div>
+        </div>
+      </header>
+
+      <section class="main_section">
+        <div class="cards">
+          <div class="card">
+            <a href="#" class="title">Toyota Avensis</a>
+              <img src="http://via.placeholder.com/150x150"/>
+            <div class="description">
+            
+            </div>
+            <div class="price">
+              50.000$
+            </div>
+          </div>
+              <div class="card">
+             <a href="#" class="title">Toyota Avensis</a>
+              <img src="http://via.placeholder.com/150x150"/>
+            <div class="description">
+            
+            </div>
+            <div class="price">
+              50.000$
+            </div>
+          </div>
+              <div class="card">
+            <a href="#" class="title">Toyota Avensis</a>
+              <img src="http://via.placeholder.com/150x150"/>
+            <div class="description">
+            
+            </div>
+            <div class="price">
+              50.000$
+            </div>
+          </div>
+          <div class="card">
+            <a href="#" class="title">Toyota Avensis</a>
+              <img src="http://via.placeholder.com/150x150"/>
+            <div class="description">
+            
+            </div>
+            <div class="price">
+              50.000$
+            </div>
+          </div>
+              <div class="card">
+            <a href="#" class="title">Toyota Avensis</a>
+              <img src="http://via.placeholder.com/150x150"/>
+            <div class="description">
+            
+            </div>
+            <div class="price">
+              50.000$
+            </div>
+          </div>
+           <div class="card">
+            <a href="#" class="title">Toyota Avensis</a>
+              <img src="http://via.placeholder.com/150x150"/>
+            <div class="description">
+            
+            </div>
+            <div class="price">
+              50.000$
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        @copy; 2017 Wheels.kz. All cars
+      </footer>
+    </div>
+  </body>
+</html>
